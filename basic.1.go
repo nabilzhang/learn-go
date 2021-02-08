@@ -2,6 +2,8 @@ package main
 import "fmt"
 func main(){
   fmt.Println(max(3, 5))
+
+
 }
 
 func max(num1,num2 int) int {
@@ -12,4 +14,8 @@ func max(num1,num2 int) int {
     result = num2
   }
   return result
+}
+
+func printArray(nums int) void {
+  var numsarray [nums] int;
 }
